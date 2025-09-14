@@ -1,0 +1,13 @@
+.Dad{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+
+}
+.child{
+background-color: red;
+padding: 20px;
+    
+    
+}
