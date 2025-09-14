@@ -1,0 +1,9 @@
+.nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(236, 248, 248);
+    
+}
+.nav a{
+    color: aqua;
+}
