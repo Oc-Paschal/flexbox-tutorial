@@ -1,0 +1,33 @@
+.nav{
+    display: flex;
+    gap: 28vh;
+    flex-direction: column;
+    background-color: aqua;
+    width: 20%;
+    padding: 15px;
+    border-radius: 2%;
+    
+
+}
+.parent_container{
+    display: flex;
+    background-color: rgb(226, 251, 251);
+}
+.top_bar{
+    display: flex;
+    gap: 15%;
+    width: 271%;
+    background-color:rgb(134, 242, 183);
+    border-radius: 5PX;
+    height: 11%;
+    padding-top: 15%;
+    
+}
+.content_area{
+    width: 300%;
+    padding-top: 50%;
+    text-align: center;
+    align-items: center;
+    font-size: large;
+    font-family: monospace;
+}
