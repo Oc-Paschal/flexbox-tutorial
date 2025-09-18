@@ -5,6 +5,16 @@
 }
 img{
     width: 7rem;
+    height:12rem;
+}
+@media(max-width:600px){
+    img{
+    width: 7rem;
+    height:12rem;
+    padding-left: 10px;
+    border-radius: 2%;
+}
+
 }
 .container{
     display: flex;
@@ -12,5 +22,65 @@ img{
     justify-content: center;
     height: 100vh;
     gap: 1rem;
+    background-color: lightblue;
     
+}
+@media(max-width:600px){
+    container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 5;
+    background-color: lightblue;
+    
+}
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+button{
+    background-color: rgb(184, 184, 247);
+    color: white;
+    border: none;
+    width: 8rem;
+    border-radius: 2%;
+    height: 2rem;
+    margin-top: 1em;
+}
+button:hover{
+    background-color: rgb(78, 78, 235);
+    transform: scale(1.1);
+}
+@media(max-width:600px){
+    button{
+    background-color: rgb(184, 184, 247);
+    color: white;
+    border: none;
+    width: 5rem;
+    border-radius: 2%;
+    height: 2rem;
+    margin-top: 1em;
+    
+}
+button:hover{
+    background-color: rgb(78, 78, 235);
+    transform: scale(1.1);
+}
+
+}
+input{
+    height: 2rem;
+    border-radius: 5px;
+    border: none;
+}
+@media(max-width:600px){
+
+    input{
+    height: 2rem;
+    border-radius: 5px;
+    border: none;
+    width: 19em;
+}
 }
