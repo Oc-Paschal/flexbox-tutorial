@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(45, 198, 249);
+}
+section{
+    display: flex;
+    gap: 2rem;
+}
+.Basic{
+    height: 70vh;
+    background-color: rgb(89, 89, 227);
+    width: 25vw;
+    border-radius: 2%;
+    text-align: center;
+    font-size: larger;
+    flex-grow: 0.1;
+    padding-left: 5px;
+    color: white;
+    
+}
+.Pro{
+    height: 90vh;
+    background-color: rgb(127, 127, 240);
+    width: 25vw;
+    border-radius: 2%;
+    text-align: center;
+    font-size: x-large;
+    flex-grow: 0.3;
+    box-shadow: 3rem;
+}
+.premium{
+    height: 70vh;
+    background-color: rgb(89, 89, 227) ;
+    width: 25vw;
+    border-radius: 2%;
+    text-align: center;
+    font-size: larger;
+    flex-grow: 0.1;
+    color: white;
+}
